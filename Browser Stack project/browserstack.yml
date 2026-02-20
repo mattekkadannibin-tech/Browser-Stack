@@ -1,0 +1,26 @@
+# BrowserStack Authentication
+userName: mattekkadannibin_PeQRWp
+accessKey: auErsxbwsYiXK8yb6rFf
+
+# Framework
+framework: pytest
+
+# Browser Configuration
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: latest
+
+# Project Details
+projectName: BrowserStack Project
+buildName: ElPais Build
+sessionName: ElPais Test
+
+# Parallel Execution
+parallelsPerPlatform: 1
+
+# Debugging Options
+debug: true
+networkLogs: true
+consoleLogs: info
